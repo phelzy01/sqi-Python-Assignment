@@ -35,7 +35,7 @@
         #     print('wrong')
 
     # def ques2():
-theory()
+
 
 
 
