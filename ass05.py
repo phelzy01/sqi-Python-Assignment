@@ -3,6 +3,11 @@
 # for i in range(1,13):
 #     print(num, 'x', i,'=', num*i)
 
+# for i in range(1,11):
+#     for n in range(1,13):
+#         print(i,'x',n,'=',i*n)
+
+# EVEN AND ODD NUMBER
 # even = []
 # odd = []
 # prime = []
@@ -16,7 +21,7 @@
 # print(odd)
 
 
-
+# PRIME NUMBERS
 # lower_value = int(input ("Please, Enter the Lowest Range Value: "))  
 # upper_value = int(input ("Please, Enter the Upper Range Value: "))  
   
@@ -29,18 +34,13 @@
 #         else:  
 #             print (number) 
 
-# odd = []
-# prime = []
-# for i in range(1,11):
-#     que = int(input('Enter the numbers here: '))
-#     if que > 1:
-#         for j in range(2,11):
-#             if que%j == 0:
-#                 prime.append(que)
-#             # else:
-#             #     odd.append(que)
-# print(prime)
-# # print(odd)
-
+# Another method for prime number
+for i in range(2,11):
+    for n in range(2,i):
+        if i%n == 0:
+            print(i,'is not a prime number')
+            break
+        else:
+            print(i,'is a prime number')
 
 
